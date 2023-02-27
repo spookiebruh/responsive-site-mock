@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+}
+.navbar{
+    filter: drop-shadow(3px 4px 4px gray);
+    padding: 20px;
+    height: 7vh;
+    background-color: white;
+}
+.navbarlist{
+    list-style-type: none;
+    margin-top: 3vh;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    display: inline;
+     
+}
+.lileft{
+    float: left;
+    padding-left: 20px;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    margin-right: 0;
+}
+.liright{
+    float: left;
+    padding-right: 20px;
+    margin-right: 20vw;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+.lielement{
+    float: left;
+    padding-left: 5vw;
+}
+.mainimg {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}
