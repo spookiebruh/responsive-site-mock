@@ -1,4 +1,5 @@
 *{
+font-family: 'Raleway', 'sans-serif';
 overflow-x: hidden;
 margin: 0;
 padding: 0;
@@ -64,31 +65,112 @@ li{
     font-size: 16px;
     display: inline-block;
     margin-left: 20vw;
-    margin-top: 50vh;
+    margin-top: 45vh;
 }
 .buybutton:hover{
     background-color: gray;
+    cursor: pointer;
 }
 .logo{
     position: absolute;
-    margin-left: 23vw;
+    margin-left: 22.5vw;
     margin-top: 12vh;
 }
 .mainproductname{
     position: absolute;
     font-family: 'Raleway', 'sans-serif';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
     margin-left: 67vw;
-    margin-top: -75vh;
+    margin-top: -79vh;
     text-align: center;
 }
 .mainprice{
     position: absolute;
     font-family: 'Raleway', 'sans-serif';
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bolder;
-    margin-left: 75vw;
-    margin-top: -65vh;
+    margin-left: 74vw;
+    margin-top: -71vh;
     text-align: center;
+}
+.btngroup button{
+    font-size: 18px;
+    background-color: white; 
+    border: 1px solid black; 
+    color: black; 
+    width: 30px;
+    height: 30px;
+    cursor: pointer; 
+    float: left; 
+    margin-left: 1vw;
+}
+.btngroup{
+    position: absolute;
+    margin-left: 71vw;
+    margin-top: -64vh;
+}
+.articlenumber{
+    position: absolute;
+    font-family: 'Raleway', 'sans-serif';
+    text-transform: uppercase;
+    margin-top: 56vh;
+    margin-left: 19vw;
+    color: gray;
+}
+.articlenumber2{
+    font-weight: 500;
+    color: black;
+}
+.checkmark{
+    position: absolute;
+    width: 14px;
+    margin-left: 41vw;
+    margin-top: 2vh;
+}
+.mainnew{
+    text-transform: uppercase;
+    padding: 4px 10px;
+    color: white;
+    background-color: black;
+    position: absolute;
+}
+.instock{
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 42vw;
+    margin-top: 2vh;
+}
+.additionalinfocontainer{
+    color: gray;
+    font-size: 18px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 55vw;
+    margin-top:-38vh;
+}
+.additionalinfocontainer span{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.additionalinfotop{
+    padding-right: 31vw;
+    border-top: 1px solid gray;
+}
+.additionalinfo{
+    padding-right: 31vw;
+    border-top: 1px solid gray;
+}
+.additionalinfobottom{
+    padding-right: 31vw;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.downarrow{
+    margin-left: 36vw;
+    width: 18px;
+    position: absolute;
 }
