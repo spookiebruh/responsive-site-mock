@@ -4,6 +4,24 @@ overflow-x: hidden;
 margin: 0;
 padding: 0;
 }
+[class*="col-"] {
+    width: 100%;
+  }
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
 .navbar{
     filter: drop-shadow(3px 4px 4px gray);
     padding: 20px;
@@ -45,7 +63,7 @@ li{
     width: 50vw;
 }
 .mainimg {
-    width: 50vw;
+    width: 50%;
     height: 100vh;
     object-fit: cover;
 }
@@ -169,8 +187,70 @@ li{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
-.downarrow{
-    margin-left: 36vw;
+.downarrow1{
+    margin-left: 29vw;
     width: 18px;
     position: absolute;
+}
+.downarrow2{
+    margin-left: 29.2vw;
+    width: 18px;
+    position: absolute;
+}
+.downarrow3{
+    margin-left: 29.7vw;
+    width: 18px;
+    position: absolute;
+}
+.downarrow4{
+    margin-left: 30.3vw;
+    width: 18px;
+    position: absolute;
+}
+.imagegroup{
+    margin-left: 9vw;
+    margin-top: 17vh;
+    position: absolute;
+}
+.imagegroup img{
+    float: left;
+    margin-left: 2vw;
+}
+.morefrombrand{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 11.1vw;
+    margin-top: 13vh;
+    font-weight: bold;
+}
+.seeallfrombrand{
+    position: absolute;
+    text-transform: uppercase;
+    margin-left: 73vw;
+    margin-top: 13vh;
+}
+.namegroup{
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 63vh;
+}
+.namegroup span{
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+    float: left;
+    margin-left: 5.2vw;
+}
+.brandgroup{
+    position: absolute;
+    margin-left: 4.3vw;
+    margin-top: 60vh;
+}
+.brandgroup span{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+    float: left;
+    margin-left: 12.4vw;
 }
