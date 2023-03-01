@@ -254,3 +254,92 @@ li{
     float: left;
     margin-left: 12.4vw;
 }
+.pricegroup{
+    position: absolute;
+    margin-left: 1.8vw;
+    margin-top: 68vh;
+}
+.pricegroup span{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+    float: left;
+    margin-left: 17vw;
+}
+.newsletterbg{
+    margin-left: 11vw;
+    margin-top: 85vh;
+    width: 77.6%;
+}
+.newsletterheader{
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin-top: 94vh;
+    margin-left: 25vw;
+}
+.newslettertext{
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 103vh;
+    margin-left: 19vw;
+    text-align: center;
+}
+.inputmail{
+    position: absolute;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+    color: gray;
+    padding: 15px 32px;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 52vw;
+    margin-top: 99vh;
+}
+.submitmail{
+    cursor: pointer;
+    position: absolute;
+    text-transform: uppercase;
+    background-color: black;
+    border: none;
+    transition-duration: 0.4s;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 65.8vw;
+    margin-top: 99vh;
+}
+.submitmail:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+.socialsgroup{
+    width: 100%;
+    height: 20vh;
+    background-color: #ebebeb;
+    position: absolute;
+    margin-top: 15vh;
+}
+.socialsgroup button{
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    text-transform: uppercase;
+    background-color: #ebebeb;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    color: black;
+    padding: 16px 225px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 3vw;
+    margin-top: 7.5vh;
+}
