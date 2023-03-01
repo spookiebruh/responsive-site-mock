@@ -207,15 +207,6 @@
     width: 18px;
     position: absolute;
 }
-.imagegroup{
-    margin-left: 9vw;
-    margin-top: 17vh;
-    position: absolute;
-}
-.imagegroup img{
-    float: left;
-    margin-left: 2vw;
-}
 .morefrombrand{
     position: absolute;
     text-transform: uppercase;
@@ -229,43 +220,13 @@
     margin-left: 73vw;
     margin-top: 13vh;
 }
-.namegroup{
+.advertisementcontainer{
+    display:block;
     position: absolute;
-    margin-left: 8vw;
-    margin-top: 63vh;
+    margin-top: 150vh;
 }
-.namegroup span{
-    text-align: center;
-    color: gray;
-    font-size: 17px;
-    float: left;
-    margin-left: 5.2vw;
-}
-.brandgroup{
-    position: absolute;
-    margin-left: 4.3vw;
-    margin-top: 60vh;
-}
-.brandgroup span{
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-size: 17px;
-    float: left;
-    margin-left: 12.4vw;
-}
-.pricegroup{
-    position: absolute;
-    margin-left: 1.8vw;
-    margin-top: 68vh;
-}
-.pricegroup span{
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-size: 17px;
-    float: left;
-    margin-left: 17vw;
+.item-img{
+    display: block;
 }
 .newsletterbg{
     margin-left: 11vw;
