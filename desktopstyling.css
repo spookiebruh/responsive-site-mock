@@ -60,10 +60,11 @@
     padding-left: 5vw;
 }
 .imgcontainer{
-    width: 100%;
+    width: 50vw;
 }
 .mainimg {
-    width: 100%;
+    width: 50%;
+    height: 100vh;
     object-fit: cover;
 }
 .infocontainer{
@@ -81,8 +82,8 @@
     text-align: center;
     font-size: 16px;
     display: inline-block;
-    margin-left: 27%;
-    margin-top: 34vh;
+    margin-left: 20vw;
+    margin-top: 45vh;
 }
 .buybutton:hover{
     background-color: gray;
@@ -90,16 +91,16 @@
 }
 .logo{
     position: absolute;
-    margin-left: 38%;
-    margin-top: 9vh;
+    margin-left: 22.5vw;
+    margin-top: 12vh;
 }
 .mainproductname{
     position: absolute;
     font-family: 'Raleway', 'sans-serif';
     font-size: 20px;
     font-weight: lighter;
-    margin-left: 15%;
-    margin-top: 18vh;
+    margin-left: 67vw;
+    margin-top: -79vh;
     text-align: center;
 }
 .mainprice{
@@ -107,8 +108,8 @@
     font-family: 'Raleway', 'sans-serif';
     font-size: 19px;
     font-weight: bolder;
-    margin-left: 44vw;
-    margin-top: 24.5vh;
+    margin-left: 74vw;
+    margin-top: -71vh;
     text-align: center;
 }
 .btngroup button{
@@ -124,14 +125,14 @@
 }
 .btngroup{
     position: absolute;
-    margin-left: 37.5vw;
-    margin-top: 29vh;
+    margin-left: 71vw;
+    margin-top: -64vh;
 }
 .articlenumber{
     position: absolute;
     font-family: 'Raleway', 'sans-serif';
     text-transform: uppercase;
-    margin-top: 45vh;
+    margin-top: 56vh;
     margin-left: 19vw;
     color: gray;
 }
@@ -142,7 +143,7 @@
 .checkmark{
     position: absolute;
     width: 14px;
-    margin-left: 71%;
+    margin-left: 41vw;
     margin-top: 2vh;
 }
 .mainnew{
@@ -156,7 +157,7 @@
     font-size: 14px;
     text-transform: uppercase;
     position: absolute;
-    margin-left: 75%;
+    margin-left: 42vw;
     margin-top: 2vh;
 }
 .additionalinfocontainer{
@@ -165,8 +166,8 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 14%;
-    margin-top:50vh;
+    margin-left: 55vw;
+    margin-top:-38vh;
 }
 .additionalinfocontainer span{
     padding-top: 2vh;
@@ -187,66 +188,63 @@
     border-bottom: 1px solid gray;
 }
 .downarrow1{
-    margin-left: 25vw;
+    margin-left: 29vw;
     width: 18px;
     position: absolute;
 }
 .downarrow2{
-    margin-left: 26vw;
+    margin-left: 29.2vw;
     width: 18px;
     position: absolute;
 }
 .downarrow3{
-    margin-left: 28.5vw;
+    margin-left: 29.7vw;
     width: 18px;
     position: absolute;
 }
 .downarrow4{
-    margin-left: 31vw;
+    margin-left: 30.3vw;
     width: 18px;
     position: absolute;
 }
 .imagegroup{
     margin-left: 9vw;
-    margin-top: 75vh;
+    margin-top: 17vh;
     position: absolute;
 }
 .imagegroup img{
     float: left;
-    margin-top: 17vh;
-    margin-left: 4vw;
+    margin-left: 2vw;
 }
 .morefrombrand{
     position: absolute;
     text-transform: uppercase;
     margin-left: 11.1vw;
-    margin-top: 100vh;
+    margin-top: 13vh;
     font-weight: bold;
 }
 .seeallfrombrand{
     position: absolute;
     text-transform: uppercase;
-    margin-left: 100vw;
-    margin-top: 58vh;
+    margin-left: 73vw;
+    margin-top: 13vh;
 }
 .namegroup{
-    
-    padding: 15px;
-    text-align: center;
-    margin-top: 97vh;
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 63vh;
 }
 .namegroup span{
     text-align: center;
     color: gray;
     font-size: 17px;
-    display: inline-block;
-    margin-top: 35vh;
+    float: left;
+    margin-left: 5.2vw;
 }
-
 .brandgroup{
     position: absolute;
     margin-left: 4.3vw;
-    margin-top: 100vh;
+    margin-top: 60vh;
 }
 .brandgroup span{
     text-align: center;
@@ -259,7 +257,7 @@
 .pricegroup{
     position: absolute;
     margin-left: 1.8vw;
-    margin-top: 100vh;
+    margin-top: 68vh;
 }
 .pricegroup span{
     text-align: center;
@@ -271,7 +269,7 @@
 }
 .newsletterbg{
     margin-left: 11vw;
-    margin-top: 350vh;
+    margin-top: 85vh;
     width: 77.6%;
 }
 .newsletterheader{
@@ -325,9 +323,10 @@
 }
 .socialsgroup{
     width: 100%;
+    height: 20vh;
     background-color: #ebebeb;
     position: absolute;
-    margin-top: 150vh;
+    margin-top: 15vh;
 }
 .socialsgroup button{
     cursor: pointer;
