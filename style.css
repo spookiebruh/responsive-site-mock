@@ -229,45 +229,10 @@
     margin-left: 100vw;
     margin-top: 58vh;
 }
-.namegroup{
-    
-    padding: 15px;
-    text-align: center;
-    margin-top: 97vh;
-}
-.namegroup span{
-    text-align: center;
-    color: gray;
-    font-size: 17px;
-    display: inline-block;
-    margin-top: 35vh;
-}
-
-.brandgroup{
+.advertisementcontainer{
+    display:block;
     position: absolute;
-    margin-left: 4.3vw;
-    margin-top: 100vh;
-}
-.brandgroup span{
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-size: 17px;
-    float: left;
-    margin-left: 12.4vw;
-}
-.pricegroup{
-    position: absolute;
-    margin-left: 1.8vw;
-    margin-top: 100vh;
-}
-.pricegroup span{
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-size: 17px;
-    float: left;
-    margin-left: 17vw;
+    margin-top: 150vh;
 }
 .newsletterbg{
     margin-left: 11vw;
