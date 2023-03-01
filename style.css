@@ -34,11 +34,7 @@ padding: 0;
     padding: 0;
     overflow: hidden;
 }
-li{
-    float: left;
-    display: inline;
-     
-}
+
 .lileft{
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -342,4 +338,79 @@ li{
     font-size: 16px;
     margin-left: 3vw;
     margin-top: 7.5vh;
+}
+.footer{
+    position: relative;
+    background-color: black;
+    margin-top: 35vh;
+    height: 50vh;
+}
+.shoplist{
+    position: absolute;
+    margin-top: 7vh;
+}
+.shoplist li{
+    margin-left: 25vw;
+    position: relative;
+    color: white;
+    list-style-type: none;
+    margin-top: 3vh;
+    padding: 0;
+    overflow: hidden;
+}
+.servicelist{
+    position: absolute;
+    margin-top: 7vh;
+}
+.servicelist li{
+    margin-left: 45vw;
+    position: relative;
+    color: white;
+    list-style-type: none;
+    margin-top: 3vh;
+    padding: 0;
+    overflow: hidden;
+}
+.service{
+    font-weight: bold;
+    margin-left: 45vw;
+    position: relative;
+    color: white;
+    list-style-type: none;
+    margin-top: 3vh;
+    padding: 0;
+    overflow: hidden;
+}
+.contactlist{
+    position: absolute;
+    margin-top: 7vh;
+}
+.contactlist li{
+    position: relative;
+    color: white;
+    list-style-type: none;
+    margin-top: 3vh;
+    margin-left: 65vw;
+    padding: 0;
+    overflow: hidden;
+}
+.contact{
+    font-weight: bold;
+    position: relative;
+    color: white;
+    list-style-type: none;
+    margin-top: 3vh;
+    margin-left: 65vw;
+    padding: 0;
+    overflow: hidden;
+}
+.shop{
+    font-weight: bold;
+    margin-left: 25vw;
+    position: relative;
+    color: white;
+    list-style-type: none;
+    margin-top: 3vh;
+    padding: 0;
+    overflow: hidden;  
 }
