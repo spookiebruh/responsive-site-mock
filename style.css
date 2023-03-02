@@ -11,8 +11,10 @@
 .navbar{
     filter: drop-shadow(3px 4px 4px gray);
     padding: 20px;
-    height: 7vh;
+    height: 2vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 .navbarlist{
     list-style-type: none;
@@ -20,25 +22,40 @@
     padding: 0;
     overflow: hidden;
 }
+.burger-menu{
+    display: flex;
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 41px;
+    height: 31px;
+}
+.burger-menu .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
 
+}
 .lileft{
-    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    display: flex;
     text-transform: uppercase;
-    float: left;
-    margin-left: 5vw;
-    margin-top: 2vh;
+    margin-left: 30vw;
     margin-right: 0;
 }
 .liright{
-    font-family: 'Raleway', sans-serif;
+    flex-direction: column;
+    display: flex;
     text-transform: uppercase;
-    float: left;
     margin-right: 0;
     margin-top: 2vh;
-    margin-left: 25vw;
+    margin-left: 30vw;
 }
 .lielement{
-    float: left;
+    float:left;
     padding-left: 5vw;
 }
 .imgcontainer{
@@ -393,6 +410,14 @@
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    .navbar{
+        padding: 20px;
+        height: 7vh;
+        flex-direction: row;
+    }
+    .burger-menu{
+        display: none;
+    }
     .mainimg{
         width: 50%;  
         object-fit: cover;
@@ -462,18 +487,102 @@
     }
     .morefrombrand{
         position: absolute;
-        margin-left: 11.1vw;
-        margin-top: 13vh;
+        margin-left: -121vh;
     }
     .seeallfrombrand{
+        display: inline;
         position: absolute;
-        margin-left: 73vw;
-        margin-top: 13vh;
+        margin-left: 125vh;
     }
     .advertisementcontainer{
+        margin-left: -3vw;
+        margin-top: 13vh;
+        flex-direction: row;
+    }
+    .ad-item{
+      padding-left: 3vh;  
+    }
+    .newsletterbg{
+        display: block;
+        margin-left: 11vw;
+        margin-top: 12vh;
+        width: 77.6%;
+    }
+    .newslettercontainer{
+        position: relative;
         display: flex;
+        flex-direction: column;
+        margin-top: 60vh;
+    }
+    .newsletterheader{
+        color: white;
         position: absolute;
-        margin-top: 150vh;
-        flex-direction: column-reverse;
+        font-size: 38px;
+        margin-top: 25vh;
+        margin-left: 25vw; 
+    }
+    .newslettertext{
+        color: white;
+        position: absolute;
+        font-size: 17px;
+        margin-top: 30vh;
+        margin-left: 19vw;
+    }
+    .inputmail{
+        width: 10vw;
+        position: absolute;
+        padding: 15px 32px;
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 52vw;
+        margin-top: 27.5vh; 
+    }
+    .submitmail{
+        width: 10vw;
+        position: absolute;
+        padding: 16px 32px;
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 65.4vw;
+        margin-top: 27.5vh; 
+    }
+    .socialsgroup{
+        display: flex;
+        flex-direction: row;
+        margin-top: 7vh;
+        padding-bottom: 4vh;
+    }
+    .socialsgroup button{
+        margin-left: 3vw;
+        width: 550px;
+    }
+    .navbar{
+        padding: 20px;
+        height: 7vh;
+    }
+    .navbarlist{
+        list-style-type: none;
+        margin-top: 3vh;
+        padding: 0;
+        overflow: hidden;
+    }
+    .lileft{
+        display: inline;
+        float: left;
+        margin-left: 5vw;
+        margin-top: 2vh;
+        margin-right: 0;
+    }
+    .liright{
+        display: inline;
+        float: left;
+        margin-right: 0;
+        margin-top: 2vh;
+        margin-left: 25vw;
+    }
+    .lielement{
+        float: left;
+        padding-left: 5vw;
+        display: inline;
     }
   }
