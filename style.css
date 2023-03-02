@@ -4,25 +4,7 @@
     margin: 0;
     padding: 0;
 }
-[class*="col-"] {
-    width: 100%;
-  }
 
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
 .productcontainer{
     width: 100%;
 }
@@ -408,3 +390,90 @@
     padding: 0;
     overflow: hidden;  
 }
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .mainimg{
+        width: 50%;  
+        object-fit: cover;
+    }
+    .logo{
+        margin-left: 22.5vw;
+        margin-top: 12vh;
+    }
+    .mainproductname{
+        margin-left: 67vw;
+        margin-top: -79vh;
+    }
+    .mainprice{
+        margin-left: 74vw;
+        margin-top: -71vh;
+    }
+    .btngroup{
+        margin-left: 71vw;
+        margin-top: -64vh;
+    }
+    .articlenumber{
+        margin-top: 56vh;
+        margin-left: 19vw;
+    }
+    .checkmark{
+        margin-left: 41vw;
+        margin-top: 2vh;
+    }
+    .buybutton{
+        margin-left: 20vw;
+        margin-top: 45vh;
+    }
+    .instock{
+        margin-left: 42vw;
+        margin-top: 2vh;
+    }
+    .additionalinfocontainer{
+        margin-left: 55vw;
+        margin-top:-38vh;
+    }
+    .additionalinfocontainer span{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    
+    .additionalinfotop{
+        padding-right: 31vw;
+    }
+    .additionalinfo{
+        padding-right: 31vw;
+
+    }
+    .additionalinfobottom{
+        padding-right: 31vw;
+    }
+    .downarrow1{
+        margin-left: 29vw;
+    }
+    .downarrow2{
+        margin-left: 29.2vw;
+    }
+    .downarrow3{
+        margin-left: 29.7vw;
+    }
+    .downarrow4{
+        margin-left: 30.3vw;
+    }
+    .morefrombrand{
+        position: absolute;
+        margin-left: 11.1vw;
+        margin-top: 13vh;
+    }
+    .seeallfrombrand{
+        position: absolute;
+        margin-left: 73vw;
+        margin-top: 13vh;
+    }
+    .advertisementcontainer{
+        display: flex;
+        position: absolute;
+        margin-top: 150vh;
+        flex-direction: column-reverse;
+    }
+  }

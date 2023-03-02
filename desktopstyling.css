@@ -64,7 +64,6 @@
 }
 .mainimg {
     width: 50%;
-    height: 100vh;
     object-fit: cover;
 }
 .infocontainer{
@@ -210,20 +209,16 @@
 .morefrombrand{
     position: absolute;
     text-transform: uppercase;
-    margin-left: 11.1vw;
-    margin-top: 13vh;
+
     font-weight: bold;
 }
 .seeallfrombrand{
     position: absolute;
     text-transform: uppercase;
-    margin-left: 73vw;
-    margin-top: 13vh;
+
 }
 .advertisementcontainer{
-    display:block;
-    position: absolute;
-    margin-top: 150vh;
+
 }
 .item-img{
     display: block;
