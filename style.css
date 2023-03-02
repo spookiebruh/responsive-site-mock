@@ -165,7 +165,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 14%;
+    margin-left: 16%;
     margin-top:50vh;
 }
 .additionalinfocontainer span{
@@ -217,72 +217,100 @@
     margin-left: 4vw;
 }
 .morefrombrand{
-    position: absolute;
+    position: relative;
+    text-align: center;
     text-transform: uppercase;
-    margin-left: 11.1vw;
-    margin-top: 100vh;
     font-weight: bold;
 }
 .seeallfrombrand{
-    position: absolute;
+    display: none;
+    text-align: center;
     text-transform: uppercase;
-    margin-left: 100vw;
-    margin-top: 58vh;
 }
 .advertisementcontainer{
-    display:block;
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    margin-top: 150vh;
+    margin-top: 90vh;
+    padding-left: 13vw;
+    justify-content: center;
+    text-align: center;
+}
+.ad-item{
+    display: flex;
+    flex-direction: column;
+}
+.item-img{
+    margin-top: 4vh;
+}
+.brand-name{
+    margin-top: 3vh;
+    font-weight: bold;
+    text-align: center;
+}
+.item-name{
+    font-weight: lighter;
+    text-align: center;
+}
+.item-price{
+    font-weight: bold;
+    text-align: center;
+}
+.newslettercontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 330vh;
 }
 .newsletterbg{
+    display: none;
     margin-left: 11vw;
     margin-top: 350vh;
     width: 77.6%;
 }
 .newsletterheader{
-    color: white;
-    position: absolute;
+    text-align: center;
+    color: black;
+    position: relative;
     text-transform: uppercase;
-    font-size: 38px;
-    margin-top: 94vh;
-    margin-left: 25vw;
+    font-size: 30px;
 }
 .newslettertext{
-    color: white;
-    position: absolute;
+    color: black;
+    position: relative;
     text-transform: uppercase;
     font-size: 17px;
-    margin-top: 103vh;
-    margin-left: 19vw;
+    padding: 10px;
     text-align: center;
 }
 .inputmail{
-    position: absolute;
     text-transform: uppercase;
     background-color: white;
     border: 1px solid black;
-    transition-duration: 0.4s;
     color: gray;
     padding: 15px 32px;
+    width: 50vw;
     font-size: 16px;
     display: inline-block;
-    margin-left: 52vw;
-    margin-top: 99vh;
+    text-align: center;
+    margin-left: 17vw;
+    margin-top: 2vh;
 }
 .submitmail{
     cursor: pointer;
-    position: absolute;
     text-transform: uppercase;
     background-color: black;
     border: none;
     transition-duration: 0.4s;
     color: white;
+    width: 50vw;
     padding: 16px 32px;
     text-align: center;
     font-size: 16px;
+    margin-left: 24vw;
+    margin-top: 2vh;
     display: inline-block;
-    margin-left: 65.8vw;
-    margin-top: 99vh;
+   
 }
 .submitmail:hover{
     cursor: pointer;
@@ -291,36 +319,35 @@
 .socialsgroup{
     width: 100%;
     background-color: #ebebeb;
-    position: absolute;
-    margin-top: 150vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    padding-bottom: 4vh;
 }
 .socialsgroup button{
     cursor: pointer;
     font-weight: bold;
-    float: left;
     text-transform: uppercase;
     background-color: #ebebeb;
     border: 2px solid black;
-    transition-duration: 0.4s;
     color: black;
-    padding: 16px 225px;
+    padding: 16px 100px;
     text-align: center;
     font-size: 16px;
-    margin-left: 3vw;
-    margin-top: 7.5vh;
+    margin-top: 4vh;
 }
 .footer{
+    display: flex;
     position: relative;
     background-color: black;
-    margin-top: 35vh;
-    height: 50vh;
+    height: 45vh;
 }
 .shoplist{
-    position: absolute;
+    margin-left: 2vw;
     margin-top: 7vh;
 }
 .shoplist li{
-    margin-left: 25vw;
+    
     position: relative;
     color: white;
     list-style-type: none;
@@ -329,11 +356,11 @@
     overflow: hidden;
 }
 .servicelist{
-    position: absolute;
     margin-top: 7vh;
+    margin-left: 9vw;
 }
 .servicelist li{
-    margin-left: 45vw;
+
     position: relative;
     color: white;
     list-style-type: none;
@@ -343,7 +370,7 @@
 }
 .service{
     font-weight: bold;
-    margin-left: 45vw;
+  
     position: relative;
     color: white;
     list-style-type: none;
@@ -352,7 +379,7 @@
     overflow: hidden;
 }
 .contactlist{
-    position: absolute;
+    margin-left: 9vw;
     margin-top: 7vh;
 }
 .contactlist li{
@@ -360,7 +387,6 @@
     color: white;
     list-style-type: none;
     margin-top: 3vh;
-    margin-left: 65vw;
     padding: 0;
     overflow: hidden;
 }
@@ -370,13 +396,11 @@
     color: white;
     list-style-type: none;
     margin-top: 3vh;
-    margin-left: 65vw;
     padding: 0;
     overflow: hidden;
 }
 .shop{
     font-weight: bold;
-    margin-left: 25vw;
     position: relative;
     color: white;
     list-style-type: none;
